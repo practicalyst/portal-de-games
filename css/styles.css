@@ -1,3 +1,6 @@
+   
+   /* Vermelho Usado: #EB1F2A*/
+   
    * {
       margin: 0;
       padding: 0;
@@ -10,63 +13,104 @@
       margin: auto;
    }
 
+
+   /* Header do Site */
    .header {
       width: 100%;
-      background-color: steelblue;
+      background-color: black;
 
       overflow: auto;
       display: flex;
-      padding: 15px 0px;
-
-      margin-bottom: 1px;
+      flex-wrap: wrap;
+      
+      align-items: center;
       justify-content:space-between;
    }
+   
+   .logo {
+      width: 200px;
+      margin-left: 10%;
 
-   .header h1{
+      margin-bottom: 15px;
+      border: 1px solid white;
+      /*box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;   }*/
+      box-shadow: rgba(235, 31, 41, 0.4) 5px 5px, rgba(235, 31, 41, 0.3) 10px 10px, rgba(235, 31, 41, 0.2) 15px 15px, rgba(235, 31, 41, 0.1) 20px 20px, rgba(235, 31, 41, 0.05) 25px 25px;   }
+
+   .logo img {
+      width: 100%;
+   }
+   .logo h1{
       font-family: 'Courier New', Courier, monospace;
       font-size: 20px;
-      border: 1px solid black;
-      border-radius: 5px;
-
-      background-color: #e9e9e9;
-      margin-left: 10%;
-      padding: 15px 10px;
-
-   }
-
-   .header h1 span {
-      padding: 5px 5px; 
-      color: crimson;
-      background-color: black;
-   }
-
-   /* Menu Principal do Site - class (ul)*/
-   .menu-principal{
+      text-align: center;
       
+      padding-left: 10px;
+
+      background-color: white;     
+      color: black;
+   }
+
+   .header div:not(:first-of-type) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   /* Menu Principal do Site - class (nav)*/
+   .menu-principal{
       padding: 15px 0px;
-   
    }
    .menu-principal ul {
       display: flex;
    }
    .menu-principal ul li {
+      color: #EB1F2A;
       list-style-type: none;
    }
    .menu-principal ul li a{
       text-decoration: none;
+      font-size: 25px;
       color: white;
 
       padding: 5px;
-      text-shadow: 1px 1px black;
+      
    }
    .menu-principal ul li a:hover{
       /*color: rgb(54, 107, 251);*/
-      background-color: black;
-      color: crimson;
+      color: #EB1F2A;
+      
    }
    .pesquisar {
-      margin-right: 10%;
+      width: 350px;     
+      margin-right: 10%;  
    }
+
+   .pesquisar img {
+
+      display: flex;
+      border: 1px solid black;
+
+      width: 60px;
+      height: 100%;
+
+      background-color: white;;
+   }
+
+   .pesquisar input[type='search']{
+   
+      width: 100%;
+
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+
+
+      background-color: #EB1F2A;
+      color: white;
+
+   }
+
+   /* Fim Header */
 
    .destaques {
       padding: 0px 15px 50px 15px;
@@ -120,11 +164,6 @@
       flex: 1 200px;
       flex: 200px;
    }
-   .game h3{
-      display: inline-block;
-      float: left;
-   }
-
    .game p:first-child {
       float:right;
    }
