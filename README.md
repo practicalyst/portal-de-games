@@ -8,6 +8,11 @@ Nos foi dado um wireframe como norte e fomos fortemente instruidos a apontar mel
 
 ![Wireframe - Portal de Games](./docs/wireframe1.png "Wireframe Tela Desktop")
 
+## Site Apresentado
+
+![Versão Desktop](./docs/desktop.png "Site Versão Desktop")
+![Versão Desktop](./docs/mobile.png "Site Versão Mobile")
+
 ### Orientações Gerais
 
 - Trabalho Individual
